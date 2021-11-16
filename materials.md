@@ -1,6 +1,8 @@
 # Materials
 
-##  [sticky trap material](https://www.alphascents.com/large-10x16-sticky-rectangle-card-trap.html)
+##  sticky trap material
+
+[AlphaScents's web page for this item](https://www.alphascents.com/large-10x16-sticky-rectangle-card-trap.html)
 
 10" x 16" sheet @ $2.90 plus shipping. 
 
@@ -10,7 +12,9 @@ Note:
 
 * **Must specify YELLOW when ordering**
 
-## [rectangular Petri dishes](https://us.vwr.com/store/product/4679565/nunc-rectangular-dishes-polystyrene-sterile-thermo-scientific)
+## rectangular Petri dishes
+
+[VWR web page for this item](https://us.vwr.com/store/product/4679565/nunc-rectangular-dishes-polystyrene-sterile-thermo-scientific)
 
  case of 100 at $490.83 plus shipping
  
