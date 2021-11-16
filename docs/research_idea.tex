@@ -1,0 +1,93 @@
+\documentclass[12pt,letterpaper,english,bibliography=totocnumbered, abstract=on]{scrartcl}
+
+\usepackage{indentfirst}
+\usepackage[titletoc]{appendix}
+%\usepackage{fullpage}
+%\usepackage{subfiles}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{color}
+\usepackage{babel}
+\usepackage{verbatim}
+\usepackage[unicode=true,pdfusetitle,
+bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=true]
+{hyperref}
+\hypersetup{linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{threeparttable}
+\usepackage[table]{xcolor}
+\usepackage{csquotes}
+\usepackage{soul} % for hiliting text: \hl
+
+\usepackage[backend=biber, style=authoryear, maxbibnames=99, dashed=false]{biblatex}
+\setlength\bibitemsep{2\itemsep}
+\addbibresource{mylibrary.bib}
+
+\usepackage{pdfpages}
+\usepackage{float} % Allows use of H to place floats
+
+\usepackage{pgfgantt}
+
+\usepackage{framed}
+
+% Prevent page breaks within paragraphs
+% https://tex.stackexchange.com/questions/21983/how-to-avoid-page-breaks-inside-paragraphs
+\widowpenalties 1 10000
+
+\begin{document}
+
+%\titlehead{Work Plan: USDA Forest Service FY2020}
+
+\title{Bug Soup: Using Computer Vision to Automate Analysis of Insects Samples Preserved in Liquid}
+
+\author{Aubrey Moore}
+
+\maketitle
+%\footnote{\url{https://github.com/aubreymoore/2020-FS-CRB-biocontrol-project/blob/master/combined-proposal.pdf}}
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+Insect sampling methods used in biodiversity studies (pan traps, Burlese funnels, Malaise traps, etc.) often result in large numbers of insects preserved in alcohol or other liquid. I refer to this as \textit{bug soup}. Often, individual specimens are sorted by hand for identification and further study. This process can be very tedious. Modern digital macrophotography coupled with computer vision can relieve the tedium (\cite{hoyeDeepLearningComputer2021}).
+
+The objective of this study is to develop a highly automated method that will count individual insects in a bug soup and identify each to species or morphospecies. 
+
+This is a \textit{living document} documenting my progress.
+
+\section{Imaging}
+
+\begin{itemize}
+	\item Images are acquired using an Olympus TG-5 camera using the microscope mode with in-camera focus stacking. Illumination comes from the built-in flash unit fitted with and optional diffuser.
+	
+	\item Each \textit{bug soup} will be contained in an unvented tissue culture flask. These flasks are designed for microscopic examination of cell cultures but suit this purpose well. 
+\end{itemize}
+
+\section{Object detection}
+
+\begin{itemize}
+	\item \textit{Object detection} is the process of identifying and extracting areas of interest in an image. In this case areas of interest are images of individual insects. \textbf{ImageJ} has an excellent \textbf{particle analysis plugin} which can be used for this purpose. We can start with ImageJ but I think I will roll my own in Python.
+\end{itemize}
+
+
+\section{Analysis}
+
+\begin{itemize}
+	\item A deep learning model, similar to the one used by iNaturalist for automated identification of organisms (\cite{ken-ichiuedaOverviewOfComputerVision2020}) will be developed to identify insects in the bug soup.
+	
+	\item It will be possible to build sufficiently large training sets by taking multiple images of each flask with agitation between images. This will result in multiple images of individuals in many orientations.
+	
+	\item The deep learning model can be trained using two different methods: \textbf{supervised learning} or \textbf{unsupervised learning}. In \textbf{supervised learning}, a subset of insect images is selected as a training set and each one is labeled (to species or pseudospecies) by a human expert. In \textbf{unsupervised learning}, the training set is automatically grouped into pseudospecies using a clustering algorithm.  	 
+\end{itemize}
+
+\newpage
+\printbibliography
+
+
+\end{document}

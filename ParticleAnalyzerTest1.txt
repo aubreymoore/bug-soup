@@ -1,0 +1,13 @@
+// This macro runs the particle analyzer on an an image
+// that has particles with holes and compares the results
+// to those from measuring the ROIs in the overlay
+// created by the particle analyzer. Correct measurement 
+// of the ROIs requires that the threshold is set and
+// the "Limit to threshold" option is enabled.
+
+  saveSettings;
+  run("Set Measurements...", "area mean standard min centroid perimeter fit feret's");
+  run("Color Threshold...");
+  run("Analyze Particles...", "  show=Overlay clear");
+  
+  restoreSettings;
