@@ -6,6 +6,8 @@ This repository contains images of sticky traps used by some of my students in m
 
 The entire repository can be downloaded as a zip file by cicking on the **code button** at the top of the [main page](https://github.com/aubreymoore/bug-soup). The download takes about 2 minutes on my machine and the zip file is about 540 MB. When you have unzipped the file, you will find your images in the **output** directory (folder).
 
+You should be able to locate your data using this table the following table.
+
 | Collaborators | Sticky trap | Image     |
 |---------------|-------------|-----------|
 |Lawrenz        | 1           | PB240032  |
