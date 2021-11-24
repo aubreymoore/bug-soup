@@ -1,5 +1,7 @@
 # bug-soup
 
+This repository contains Jupyter notebooks which extract images of individual insects from images of sticky traps. Use **extract_images_runner** to automated processing sticky trap images in a directory.
+
 ## Note to ALBI-345 Students
 
 This repository contains images of sticky traps used by some of my students in my General Entomology class (ALBI-345, Fanuchanan 2021).
