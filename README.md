@@ -9,7 +9,12 @@ The entire repository can be downloaded as a zip file by cicking on the **code b
 | Collaborators | Sticky trap | Image |
 |---------------|-------------|-------|
 |Lawrenz        | 1           | 0032  |
-|               | 2           | 0033  |
-|---------------|-------------|       |
+| Lawrenz       | 2           | 0033  |
 |Anela, Berncie |B-2021-11-09 | 0034  |
+|Anela, Berncie |R-2021-11-09 | 0035  |
+|Anela, Berncie |G-2021-11-09 | 0036  |
+|Anela, Berncie |B-2021-11-10 | 0034  |
+|Anela, Berncie |R-2021-11-10 | 0035  |
+|Anela, Berncie |G-2021-11-10 | 0036  |
+
 
