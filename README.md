@@ -13,7 +13,9 @@ You should be able to locate your data using this table the following table.
 | Collaborators | Sticky trap | Image     |
 |---------------|-------------|-----------|
 |Lawrenz        | 1           | PB240032  |
-| Lawrenz       | 2           | PB240033  |
+|Lawrenz        | 2           | PB240033  |
+|Lawrenz        | 3           | PC010067  |
+|Lawrenz        | 4           | PC010068  |
 |Anela, Berncie |B-2021-11-09 | PB240034  |
 |Anela, Berncie |R-2021-11-09 | PB240035  |
 |Anela, Berncie |G-2021-11-09 | PB240036  |
